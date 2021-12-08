@@ -1,0 +1,10 @@
+.my-fit-img {
+  /* margin: 50px 100px 70px 100px; */
+  position: absolute;
+  z-index: -1;
+  top: 14%;
+  bottom: 21%;
+  left: 17%;
+  right: 17%;
+  background-size: cover;
+}
