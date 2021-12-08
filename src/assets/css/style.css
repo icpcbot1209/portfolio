@@ -11,7 +11,7 @@ Import Google Fonts
 --------------------*/
 
 /* main font for menu. */
-@import url(http://fonts.googleapis.com/css?family=Roboto:400|Raleway:200,300,400,500,700,900);
+/* @import url(https://fonts.googleapis.com/css?family=Roboto:400|Raleway:200,300,400,500,700,900); */
 
 /*--------------------
 1. General
@@ -119,7 +119,7 @@ section {
   background-color: #fed136;
 }
 .navbar-default .nav li a {
-  font-family: "Roboto", sans-serif;
+  /* font-family: "Roboto", sans-serif; */
   text-transform: uppercase;
   font-size: 13px;
   font-weight: 400;
