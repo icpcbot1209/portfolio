@@ -1,15 +1,14 @@
 <!-- start portfolio item -->
 <div class="col-md-6 col-0-gutter">
     <div class="ot-portfolio-item">
-        <figure class="effect-bubba">
-            <img src="assets/images/frame_desktop.png" alt="img02" class="img-responsive" />
+        <figure class="effect-bubba" (click)="gotoLink(project?.link)" style="min-height: 300px;">
+            <img [src]="thumbnailOf(project?.thumbnail)" alt="Thumbnail" class="img-responsive" style="width: 100%" />
             <figcaption>
-                <h2>{{project?.title}}</h2>
+                <!-- <h2>{{project?.title}}</h2>
                 <p>Branding, Design</p>
-                <a href="#" data-toggle="modal" data-target="#Modal-1">View more</a>
+                <a href="#" data-toggle="modal" data-target="#Modal-1">View more</a> -->
             </figcaption>
         </figure>
-        <div class="my-fit-img" [style.background-image]="url('/assets/images/test.png')"></div>
     </div>
 </div>
 <!-- end portfolio item -->

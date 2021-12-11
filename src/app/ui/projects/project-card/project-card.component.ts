@@ -13,7 +13,18 @@ export class ProjectCardComponent implements OnInit {
 
   ngOnInit(): void {}
 
-  url(path: string) {
+  backgroundUrlOf(path?: string) {
     return `url("${path}")`;
+  }
+
+  thumbnailOf(path?: string): string {
+    const id = path?.split('/')[5];
+    const thumbnail = `https://drive.google.com/uc?id=${id}`;
+    console.log(thumbnail);
+    return thumbnail;
+  }
+
+  gotoLink(link?: string): void {
+    window.open(link, '_blank');
   }
 }

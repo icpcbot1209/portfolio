@@ -338,9 +338,8 @@ figure.effect-bubba {
 }
 
 figure.effect-bubba img {
-  opacity: 0.8;
-  -webkit-transition: opacity 0.35s;
-  transition: opacity 0.35s;
+  -webkit-transition: opacity 0.65s;
+  transition: opacity 0.65s;
 }
 
 figure.effect-bubba:hover img {
@@ -350,10 +349,10 @@ figure.effect-bubba:hover img {
 figure.effect-bubba figcaption::before,
 figure.effect-bubba figcaption::after {
   position: absolute;
-  top: 15%;
-  right: 18%;
-  bottom: 22%;
-  left: 18%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
   content: "";
   opacity: 0;
   -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
@@ -361,15 +360,15 @@ figure.effect-bubba figcaption::after {
 }
 
 figure.effect-bubba figcaption::before {
-  border-top: 1px solid #999;
-  border-bottom: 1px solid #999;
+  border-top: 3px double #999;
+  border-bottom: 3px double #999;
   -webkit-transform: scale(0, 1);
   transform: scale(0, 1);
 }
 
 figure.effect-bubba figcaption::after {
-  border-right: 1px solid #999;
-  border-left: 1px solid #999;
+  border-right: 3px double #999;
+  border-left: 3px double #999;
   -webkit-transform: scale(1, 0);
   transform: scale(1, 0);
 }
