@@ -5,8 +5,7 @@ export const projects: IProject[] = [
     description: 'Sports Marketplace',
     tech: ['Ionic', 'Angular', 'Node/Express', 'PostgreSQL', 'Firebase'],
     link: 'https://docs.google.com/presentation/d/145VmC0jh_VKwRlNi7O2S3TIpKpTeLb2Srgb4kgDA-0g/edit?usp=sharing',
-    thumbnail:
-      'assets/thumbs/sports-exchange.png',
+    thumbnail: 'assets/thumbs/sports-exchange.png',
   },
   {
     id: 'design-pad',
@@ -14,8 +13,7 @@ export const projects: IProject[] = [
     description: '',
     tech: [''],
     link: 'https://docs.google.com/presentation/d/1hZaIcFlJlAVZ-7SpVNG57A3qI94Gw_nfAz0tP6kuzQM/edit?usp=sharing',
-    thumbnail:
-      'assets/thumbs/design-pad-v2.png',
+    thumbnail: 'assets/thumbs/design-pad-v2.png',
   },
   {
     id: 'html-editor',
@@ -23,25 +21,15 @@ export const projects: IProject[] = [
     description: '',
     tech: [''],
     link: 'https://docs.google.com/presentation/d/1J5bUaVu4IgSCRQPtbl4JHL2ggYELDKvXC_7PvqQIs0I/edit?usp=sharing',
-    thumbnail:
-      'assets/thumbs/design-pad-v3.png',
-  },
-  {
-    id: 'movie-site',
-    title: 'Movie Epivore',
-    description: 'Netflix like content provider',
-    tech: ['React Native'],
-    link: 'https://docs.google.com/presentation/d/1JqlUsyRdCJQomvZaN9NzU-ghxhsEzEsJwvh2ceOtXjE/edit?usp=sharing',
-    thumbnail:
-      'assets/thumbs/movie-epivore.png',
+    thumbnail: 'assets/thumbs/design-pad-v3.png',
   },
   {
     id: 'stock-market',
     title: 'Stock Market',
     description: 'Drag & Drop Stock Trading Flow Builder',
     tech: ['Angular', 'Firebase', '.Net/C#', 'Alpaca', 'Stripe'],
-    link: 'paper-plane',
-    thumbnail: '',
+    link: 'https://docs.google.com/presentation/d/1J5bUaVu4IgSCRQPtbl4JHL2ggYELDKvXC_7PvqQIs0I/edit?usp=sharing',
+    thumbnail: 'assets/thumbs/design-pad-v3.png',
   },
   {
     id: 'nft-market',
