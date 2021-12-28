@@ -9,6 +9,7 @@ import { AboutComponent } from './ui/about/about.component';
 import { ContactUsComponent } from './ui/contact-us/contact-us.component';
 import { TeamComponent } from './ui/team/team.component';
 import { ProjectCardComponent } from './ui/projects/project-card/project-card.component';
+import { MainComponent } from './pages/main/main.component';
 
 @NgModule({
   declarations: [
@@ -18,6 +19,7 @@ import { ProjectCardComponent } from './ui/projects/project-card/project-card.co
     ContactUsComponent,
     TeamComponent,
     ProjectCardComponent,
+    MainComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, NgxSkeletonLoaderModule],
   providers: [],

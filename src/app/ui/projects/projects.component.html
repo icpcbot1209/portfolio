@@ -10,9 +10,17 @@
             </div>
         </div>
         <div class="row row-0-gutter">
-            <ng-container *ngFor="let project of projects">
-                <app-project-card [project]="project"></app-project-card>
+            <ng-container *ngIf="authorized; else dateTemplate">
+                <ng-container *ngFor="let project of projects">
+                    <app-project-card [project]="project"></app-project-card>
+                </ng-container>
             </ng-container>
+            <ng-template #dateTemplate>
+                <div
+                    style="height: 20vh; display: flex; align-items: center; justify-content: center; font-size: 12rem;">
+                    <span>{{now}}</span>
+                </div>
+            </ng-template>
         </div>
     </div><!-- container -->
 </section>

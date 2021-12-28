@@ -24,12 +24,12 @@ export const projects: IProject[] = [
     thumbnail: 'assets/thumbs/design-pad-v3.png',
   },
   {
-    id: 'stock-market',
-    title: 'Stock Market',
-    description: 'Drag & Drop Stock Trading Flow Builder',
+    id: 'stock-trader',
+    title: 'Stock Trader',
+    description: 'Drag & Drop Stock Trader Builder',
     tech: ['Angular', 'Firebase', '.Net/C#', 'Alpaca', 'Stripe'],
-    link: 'https://docs.google.com/presentation/d/1J5bUaVu4IgSCRQPtbl4JHL2ggYELDKvXC_7PvqQIs0I/edit?usp=sharing',
-    thumbnail: 'assets/thumbs/design-pad-v3.png',
+    link: 'https://docs.google.com/presentation/d/1MT7rb431Qk9RooknJFVq-w4e1oer9hBvJvQgZJyq-JI/edit?usp=sharing',
+    thumbnail: 'assets/thumbs/stock-trader.png',
   },
   {
     id: 'nft-market',
