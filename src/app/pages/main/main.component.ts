@@ -18,7 +18,7 @@ export class MainComponent implements OnInit {
         this.authorized = false;
       } else {
         const duration = this.now - Number(num);
-        if(duration < 24*3600*1000) this.authorized = true;
+        if(0<duration && duration < 24*3600*1000) this.authorized = true;
         else this.authorized = false;
       }
 
