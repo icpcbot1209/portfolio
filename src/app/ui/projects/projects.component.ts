@@ -11,7 +11,7 @@ export class ProjectsComponent implements OnInit {
   @Input() authorized: boolean | undefined;
   @Input() now: Number | undefined;
   
-  projects: IProject[] = projects.slice(0, 4);
+  projects: IProject[] = projects.slice(0, 6);
   constructor() {}
 
   ngOnInit(): void {}

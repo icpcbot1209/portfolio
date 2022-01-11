@@ -32,6 +32,22 @@ export const projects: IProject[] = [
     thumbnail: 'assets/thumbs/stock-trader.png',
   },
   {
+    id: 'movie-site',
+    title: 'Movie Epivore',
+    description: 'Netflix like content provider',
+    tech: ['React Native'],
+    link: 'https://docs.google.com/presentation/d/1JqlUsyRdCJQomvZaN9NzU-ghxhsEzEsJwvh2ceOtXjE/edit?usp=sharing',
+    thumbnail: 'assets/thumbs/movie-epivore.png',
+  },
+  {
+    id: 'design-pad-v1',
+    title: 'HTML CSS Editor',
+    description: 'React',
+    tech: ['React', 'Material UI', 'AWS S3'],
+    link: 'https://docs.google.com/presentation/d/15PmAhGRWv_MEJHDWlOzBf2DzdVPSUCOBu0RavVKYKAA/edit?usp=sharing',
+    thumbnail: 'assets/thumbs/design-pad-v1.png',
+  },
+  {
     id: 'nft-market',
     title: 'NFT Marketplace',
     description: '',
@@ -45,14 +61,6 @@ export const projects: IProject[] = [
     description: '',
     tech: [''],
     link: 'mail',
-    thumbnail: '',
-  },
-  {
-    id: 'leaflet-draw',
-    title: 'Leaflet Map Draw',
-    description: '',
-    tech: [''],
-    link: 'paper-plane',
     thumbnail: '',
   },
   {
