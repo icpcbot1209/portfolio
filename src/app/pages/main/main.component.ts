@@ -12,17 +12,17 @@ export class MainComponent implements OnInit {
   now = Date.now();
 
   constructor(private route: ActivatedRoute) {
-    route.paramMap.subscribe((paramMap: ParamMap)=> {
+    route.paramMap.subscribe((paramMap: ParamMap) => {
       const num = paramMap.get('num');
-      if(!num) {
+      if (!num) {
         this.authorized = false;
       } else {
         const duration = this.now - Number(num);
-        if(0<duration && duration < 24*3600*1000) this.authorized = true;
+        if (0 < duration && duration < 7 * 24 * 3600 * 1000)
+          this.authorized = true;
         else this.authorized = false;
       }
-
-    })
+    });
   }
 
   ngOnInit(): void {}
