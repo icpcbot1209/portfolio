@@ -1,60 +1,77 @@
 <!-- Navigation -->
 <nav class="navbar navbar-default">
-    <div class="container">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header page-scroll">
-            <button type="button" class="navbar-toggle" data-toggle="collapse"
-                data-target="#bs-example-navbar-collapse-1">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand page-scroll" #topEl>JastiDev</a>
-        </div>
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav navbar-right">
-                <li class="hidden">
-                    <a></a>
-                </li>
-                <li>
-                    <a class="page-scroll" (click)="scrollToElement(aboutEl)">About</a>
-                </li>
-                <li>
-                    <a class="page-scroll" (click)="scrollToElement(projectsEl)">Projects</a>
-                </li>
-                <li>
-                    <a class="page-scroll" (click)="scrollToElement(contactEl)">Contact</a>
-                </li>
-                <!-- <li>
-                    <a class="page-scroll" target="_blank"
-                        href="https://docs.google.com/document/d/10nX296r4q8ZkEuOmAtyBegFmBfhTQIGGuYIxR1SMDfk/edit?usp=sharing">Resume</a>
-                </li> -->
-            </ul>
-        </div>
-        <!-- /.navbar-collapse -->
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header page-scroll">
+      <button
+        type="button"
+        class="navbar-toggle"
+        data-toggle="collapse"
+        data-target="#bs-example-navbar-collapse-1"
+      >
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand page-scroll" #topEl>Sujanesh Jasti</a>
     </div>
-    <!-- /.container-fluid -->
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="hidden">
+          <a></a>
+        </li>
+        <li>
+          <a class="page-scroll" (click)="scrollToElement(aboutEl)">About</a>
+        </li>
+        <li>
+          <a class="page-scroll" (click)="scrollToElement(projectsEl)"
+            >Projects</a
+          >
+        </li>
+        <li>
+          <a class="page-scroll" (click)="scrollToElement(contactEl)"
+            >Contact</a
+          >
+        </li>
+        <li>
+          <a
+            class="page-scroll"
+            target="_blank"
+            href="https://docs.google.com/document/d/1hBkiUA_kL_UHdaXGEl7tSYw6pNChAV7L/edit?usp=sharing&ouid=110250377255714909627&rtpof=true&sd=true"
+            >Resume</a
+          >
+        </li>
+      </ul>
+    </div>
+    <!-- /.navbar-collapse -->
+  </div>
+  <!-- /.container-fluid -->
 </nav>
 
 <section #projectsEl>
-    <app-projects [authorized]="true" [now]="now"></app-projects>
+  <app-projects [authorized]="true" [now]="now"></app-projects>
 </section>
 
 <section #aboutEl>
-    <app-about></app-about>
+  <app-about></app-about>
 </section>
 
 <section #contactEl>
-    <app-contact-us></app-contact-us>
+  <app-contact-us></app-contact-us>
 </section>
 
 <p id="back-top">
-    <a class="page-scroll" (click)="scrollToElement(topEl)"><i class="fa fa-angle-up"></i></a>
+  <a class="page-scroll" (click)="scrollToElement(topEl)"
+    ><i class="fa fa-angle-up"></i
+  ></a>
 </p>
 <footer>
-    <div class="container text-center">
-        <p>Designed by <a href="http://moozthemes.com"><span>MOOZ</span>Themes.com</a></p>
-    </div>
+  <div class="container text-center">
+    <p>
+      Designed by
+      <a href="http://moozthemes.com"><span>MOOZ</span>Themes.com</a>
+    </p>
+  </div>
 </footer>

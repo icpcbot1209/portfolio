@@ -4,7 +4,7 @@ export const projects: IProject[] = [
     title: 'Sports Exchange',
     description: 'Sports Marketplace',
     tech: ['Ionic', 'Angular', 'Node/Express', 'PostgreSQL', 'Firebase'],
-    link: 'https://docs.google.com/presentation/d/145VmC0jh_VKwRlNi7O2S3TIpKpTeLb2Srgb4kgDA-0g/edit?usp=sharing',
+    link: 'https://docs.google.com/presentation/d/11go0CfFNHy__OpP-2fbDiy2Y9LOlGd74IHY4Tj_otr4/edit?usp=sharing',
     thumbnail: 'assets/thumbs/sports-exchange.png',
   },
   {
@@ -12,7 +12,7 @@ export const projects: IProject[] = [
     title: 'Design Pad',
     description: '',
     tech: [''],
-    link: 'https://docs.google.com/presentation/d/1hZaIcFlJlAVZ-7SpVNG57A3qI94Gw_nfAz0tP6kuzQM/edit?usp=sharing',
+    link: 'https://docs.google.com/presentation/d/1MbXSr1O5mG8tElw3FnIGuA1VdwOKtt9n9LPvfkxM_Ys/edit?usp=sharing',
     thumbnail: 'assets/thumbs/design-pad-v2.png',
   },
   {
@@ -20,7 +20,7 @@ export const projects: IProject[] = [
     title: 'Html Editor',
     description: '',
     tech: [''],
-    link: 'https://docs.google.com/presentation/d/1J5bUaVu4IgSCRQPtbl4JHL2ggYELDKvXC_7PvqQIs0I/edit?usp=sharing',
+    link: 'https://docs.google.com/presentation/d/13DYhlCIxiO3yYxNBThwL7lmBQNE0hlPeJDFMzGbSxOM/edit?usp=sharing',
     thumbnail: 'assets/thumbs/design-pad-v3.png',
   },
   {
@@ -28,7 +28,7 @@ export const projects: IProject[] = [
     title: 'Stock Trader',
     description: 'Drag & Drop Stock Trader Builder',
     tech: ['Angular', 'Firebase', '.Net/C#', 'Alpaca', 'Stripe'],
-    link: 'https://docs.google.com/presentation/d/1MT7rb431Qk9RooknJFVq-w4e1oer9hBvJvQgZJyq-JI/edit?usp=sharing',
+    link: 'https://docs.google.com/presentation/d/1RrpLium8kxev-YNbzk0vDaoZwv4F9sh5V_odpAoUh_8/edit?usp=sharing',
     thumbnail: 'assets/thumbs/stock-trader.png',
   },
   {
@@ -36,7 +36,7 @@ export const projects: IProject[] = [
     title: 'Movie Epivore',
     description: 'Netflix like content provider',
     tech: ['React Native'],
-    link: 'https://docs.google.com/presentation/d/1JqlUsyRdCJQomvZaN9NzU-ghxhsEzEsJwvh2ceOtXjE/edit?usp=sharing',
+    link: 'https://docs.google.com/presentation/d/1Bn86MyW7iHHowV6oEgez2uRolzu-QmHpvIPI-OYptHI/edit?usp=sharing',
     thumbnail: 'assets/thumbs/movie-epivore.png',
   },
   {
@@ -44,7 +44,7 @@ export const projects: IProject[] = [
     title: 'HTML CSS Editor',
     description: 'React',
     tech: ['React', 'Material UI', 'AWS S3'],
-    link: 'https://docs.google.com/presentation/d/15PmAhGRWv_MEJHDWlOzBf2DzdVPSUCOBu0RavVKYKAA/edit?usp=sharing',
+    link: 'https://docs.google.com/presentation/d/16UqiR3aGVedcKx4DqthftnJuKZvI5lPPji3Aq-3n_z8/edit?usp=sharing',
     thumbnail: 'assets/thumbs/design-pad-v1.png',
   },
   {
